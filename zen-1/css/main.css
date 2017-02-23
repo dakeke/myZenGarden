@@ -1,0 +1,138 @@
+/**
+ * 基本设置
+ **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 75% georgia,sans-serif;
+  line-height: 1.88889;
+  color: #555753;
+  background: url(../img/blossoms.jpg) no-repeat bottom right;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font: italic normal 1.4em georgia,sans-serif;
+  color: #7D775C;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #B7A5DF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #9685BA;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #D4CDDC;
+}
+
+li {
+  list-style: none;
+}
+
+/**
+ * 页面主体设置
+ **/
+
+.page-wrapper {
+  background: url(../img/zen-bg.jpg) no-repeat top left;
+  padding: 0 175px 0 110px;
+  position: relative;
+}
+
+.intro {
+  background: url(../img/h1.gif) no-repeat 10px 30px,
+              url(../img/h2.gif) no-repeat 270px 80px;
+}
+
+header {
+  color: transparent;
+}
+
+.summary {
+  float: left;
+  margin: 88px 20px 20px 10px;
+  width: 160px;
+}
+
+.summary p {
+  font: italic 1.1em/2.2 georgia,sans-serif;
+  text-align: center;
+}
+
+.preamble {
+  margin-top: 68px;
+  padding-right: 10px;
+}
+
+.main {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding:0 10px;
+}
+
+/**
+ * 边栏
+ **/
+
+ .sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  background: url(../img/cr2.gif) no-repeat 0 50px;
+ }
+
+ .wrapper {
+  margin-top: 160px;
+  background: url(../img/paper-bg.jpg) top left repeat-y;
+  padding: 10px;
+ }
+
+.sidebar li {
+  background: url(../img/cr1.gif) no-repeat top center;
+}
+
+.sidebar li a:link {
+  color: #988F5E;
+}
+
+.sidebar li a:visited {
+  color: #B3AE94;
+}
+
+h3.select,.archives,.resources {
+  background: url(../img/h3.gif) no-repeat;
+  margin-top: 10px;
+  color: transparent;
+}
+
+h3.archives {
+  background: url(../img/h5.gif) no-repeat;
+}
+h3.resources {
+  background: url(../img/h6.gif) no-repeat;
+  margin-bottom: -5px;
+}
