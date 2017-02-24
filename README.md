@@ -5,5 +5,7 @@
 
  以下为练习例子：
  
- [001]()
+ [001](https://dakeke.github.io/myZenGarden/zen-1)
+ 
+ [002](https://dakeke.github.io/myZenGarden/zen-2)
  
